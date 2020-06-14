@@ -1,0 +1,38 @@
+MongoDB shell version v4.2.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("e1720010-de34-4093-8d35-dbfb4a1b58b0") }
+MongoDB server version: 4.2.6
+{
+	"_id" : ObjectId("5ea546fb8925b5ceb556b9d3"),
+	"sex" : "Female",
+	"first_name" : "Norma",
+	"last_name" : "Price",
+	"job" : "Programmer IV",
+	"email" : "npriced@wikipedia.org",
+	"location" : {
+		"city" : "Mompach",
+		"address" : {
+			"streetname" : "Sunnyside",
+			"streetnumber" : "65"
+		}
+	},
+	"description" : "mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor",
+	"height" : 161.72,
+	"weight" : 81.12,
+	"birth_date" : ISODate("1985-08-21T13:35:22Z"),
+	"nationality" : "Luxembourg",
+	"credit" : [
+		{
+			"type" : "jcb",
+			"number" : "3530390359684436",
+			"currency" : "PHP",
+			"balance" : 5148.89
+		},
+		{
+			"type" : "americanexpress",
+			"number" : "3571876095633703",
+			"currency" : "MUR",
+			"balance" : 3684.42
+		}
+	]
+}
